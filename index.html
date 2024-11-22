@@ -48,7 +48,6 @@
 
         <label>Interests:</label>
         <div id="interests">
-            <!-- Dynamic interests will appear here -->
         </div>
 
         <button type="submit">Enroll Now</button>
@@ -128,7 +127,7 @@
     </table>
 
     <script>
-        // Define interests for each course
+        
         const courseInterests = {
             BSIT: ["Web Development", "Data Science", "Networking"],
             BSSW: ["Social services", "Community development", "Advocacy"],
@@ -138,18 +137,16 @@
             ABELS: ["Linguistics", "Communication", "Language-related fields"]
         };
 
-        // Function to update interests based on the selected course
+       // UPDATE NG COURSE AT INTERES
         function updateInterests() {
-            const course = document.getElementById("course").value; // Get selected course
-            const interestsContainer = document.getElementById("interests"); // Get the interests container
+            const course = document.getElementById("course").value; 
+            const interestsContainer = document.getElementById("interests"); //INTEREST BASE SA COURSE
 
-            // Clear existing interests
+            // DELETE TO
             interestsContainer.innerHTML = "";
 
-            // Get the relevant interests for the selected course
             const interests = courseInterests[course] || [];
 
-            // Create checkboxes dynamically
             interests.forEach(interest => {
                 const label = document.createElement("label");
                 const checkbox = document.createElement("input");
@@ -161,7 +158,7 @@
                 label.appendChild(checkbox);
                 label.appendChild(document.createTextNode(` ${interest}`));
                 interestsContainer.appendChild(label);
-                interestsContainer.appendChild(document.createElement("br")); // Line break for readability
+                interestsContainer.appendChild(document.createElement("br")); 
             });
         }
     </script>
