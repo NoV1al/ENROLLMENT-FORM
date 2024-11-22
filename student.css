@@ -2,25 +2,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
-    background: url('BG PIC.jpg') no-repeat center center fixed; /* Add the image */
-    background-size: cover; /* Ensure it covers the entire screen */
+    background: url('BG PIC.jpg') no-repeat center center fixed; 
+    background-size: cover; 
     color: #333;
 }
 
 
 h1, h3 {
-    color: #2d3748; /* Darker color for the headings to maintain professionalism */
-    text-align: center; /* Center-align headings for a cleaner look */
+    color: #2d3748;
+    text-align: center;
 }
 
 form {
 
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     max-width: 600px;
     margin: 40px auto;
-    border: 1px solid #e2e8f0; /* Light border around the form */
+    border: 1px solid #e2e8f0; 
 }
 
 form label {
@@ -34,33 +34,33 @@ form input, form select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #cbd5e0; /* Subtle border color */
+    border: 1px solid #cbd5e0; 
     border-radius: 4px;
     font-size: 16px;
 }
 
 .radio-group {
-    display: flex;      /* Aligns radio buttons in a row */
-    align-items: center; /* Aligns radio buttons and text vertically */
-    gap: 15px;          /* Adds spacing between options */
-    margin-top: 10px;   /* Adjust spacing above the group */
+    display: flex;      /* RADION BUTTONS PAHAIGA */
+    align-items: center; /* RADIO BUTTON PATAYO */
+    gap: 15px;          
+    margin-top: 10px;  
 }
 
 .radio-group input[type="radio"] {
-    width: 18px;      /* Adjust size of radio buttons */
-    height: 18px;     /* Make radio buttons larger */
-    margin-right: 5px; /* Add space between button and label text */
+    width: 18px;      /* RADIO SIZE */
+    height: 18px;    
+    margin-right: 5px;
 }
 
 .radio-group label {
-    font-size: 16px;   /* Adjust text size for labels */
-    display: flex;     /* Keep label text aligned with the radio button */
+    font-size: 16px;   
+    display: flex;     
     align-items: center;
 }
 
-
+/* CHECKBOXEX */
 form button {
-    background-color: #4CAF50; /* Green for a positive action */
+    background-color: #4CAF50; 
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -72,7 +72,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
 }
 
 table {
@@ -81,14 +81,14 @@ table {
     border-collapse: collapse;
 }
 #interests {
-    margin-top: 10px; /* Spacing above the interests section */
-    display: flex;    /* Makes checkboxes align nicely */
-    flex-wrap: wrap;  /* Allows checkboxes to wrap to the next line if needed */
-    gap: 15px;        /* Space between individual checkboxes */
+    margin-top: 10px; 
+    display: flex;    
+    flex-wrap: wrap; 
+    gap: 15px;       
 }
 #interests label {
-    margin-bottom: 5px; /* Adjust space between rows */
-    display: inline-block; /* Keeps labels aligned with checkboxes */
+    margin-bottom: 5px; 
+    display: inline-block; 
 }
 
 table th, table td {
@@ -104,19 +104,19 @@ table th {
 }
 
 table td {
-    background-color: #f9fafb; /* Soft background for table rows */
+    background-color: #f9fafb; 
 }
 
 table tr:nth-child(even) td {
-    background-color: #f1f5f9; /* Subtle striping for even rows */
+    background-color: #f1f5f9;
 }
 
 .instructions {
-    text-align: center; /* Center-align the instructions */
-    margin-bottom: 20px; /* Adjust spacing below the instructions */
+    text-align: center;
+    margin-bottom: 20px; 
 }
 .instructions ol {
-    list-style: none; /* Removes numbering */
-    padding: 0;       /* Removes extra padding */
-    margin: 0;        /* Adjust margins as needed */
+    list-style: none; 
+    padding: 0;     
+    margin: 0;       
 }
